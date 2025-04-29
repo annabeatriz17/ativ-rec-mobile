@@ -9,7 +9,7 @@ const Tab = createBottomTabNavigator();
 export default function HomeNavigation() {
     return (
         <Tab.Navigator>
-        <Tab.Screen name="Home" component={HomeScreen}  
+        <Tab.Screen name="Home" component={HomeScreen}
         options={{
             tabBarIcon: ({ color, size }) => ( // Define o ícone da aba usando o componente Icon
                 <Icon name="home" color={color} size={size} />
