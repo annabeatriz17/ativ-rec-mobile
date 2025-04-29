@@ -1,7 +1,7 @@
 import React from "react";
-import { StyleSheet, Text, Image, View } from "react-native";
+import { StyleSheet, Text, Image, View, Button } from "react-native";
 
-export default function StackScreen({ navigation }) {
+export default function Profile() {
     return (
         <View style={styles.container}>
             <Text style={styles.title}>Welcome to My Profile</Text>
@@ -10,6 +10,7 @@ export default function StackScreen({ navigation }) {
             <Text style={styles.subtitle}>Idade: 17 Anos</Text>
             <Text style={styles.subtitle}>Cidade: Valinhos</Text>
             <Text style={styles.subtitle}>Email: annabeatrizbe13@gmail.com</Text>
+            <Button title="Ir para o Perfil" onPress={() => navigation.navigate("Stack2")} />
         </View>
     );
 }
