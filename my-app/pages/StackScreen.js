@@ -1,7 +1,7 @@
 import React from "react";
 import { StyleSheet, Text, Image, View } from "react-native";
 
-export default function ProfileScreen() {
+export default function StackScreen({ navigation }) {
     return (
         <View style={styles.container}>
             <Text style={styles.title}>Welcome to My Profile</Text>

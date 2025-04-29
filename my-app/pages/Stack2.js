@@ -1,8 +1,7 @@
 import React from "react";
-import { Text, StyleSheet } from "react-native";
-import { SafeAreaView, ScrollView } from "react-native-web";
+import { SafeAreaView, ScrollView, Text, StyleSheet } from "react-native";
 
-export default function HomeScreen( { navigation } ) {
+export default function Stack2() {
     return (
         <SafeAreaView style={styles.container}>
             <ScrollView>
