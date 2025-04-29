@@ -46,7 +46,7 @@ const styles = StyleSheet.create({
         fontWeight: 'bold',
     },
     input: {
-        width: '50%',
+        width: '100%',
         height: 20,
         borderColor: '#000000',
         borderWidth: 1,
@@ -78,6 +78,12 @@ const styles = StyleSheet.create({
     },
     rectangle: {
         display: 'flex',
+        flexDirection: 'row',
+
+    },
+    card3: {
+        display: 'flex',
+        flexDirection: 'row',
     },
     cardimage1: {
         marginTop: 20,
